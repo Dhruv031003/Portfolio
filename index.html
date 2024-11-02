@@ -25,9 +25,18 @@
             font-optical-sizing: auto;
             font-style: normal;
         }
+
         .ubuntu-regular {
             font-family: "Ubuntu", sans-serif;
             font-style: normal;
+        }
+
+        .grad-bg {
+            background: #121FCF;
+            background: linear-gradient(to right, #9845E8 0%, #33D2FF 50%, #DD5789 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     </style>
 </head>
@@ -49,8 +58,11 @@
         </nav>
     </header>
     <main class="flex flex-col justify-center min-h-screen">
-        <p>Hey, I'm</p>
-        <h1 class="ubuntu text-9xl font-bold">Dhruv Dorbi</h1>
+        <p class="text-sm">Hey, I'm</p>
+        <h1 class="ubuntu text-9xl font-bold grad-bg w-fit">Dhruv Dorbi</h1>
+        <p class="text-sm">I'm a software engineer based in Gwalior, India and also a Batchelor of Technology student.</p>
+        <p class="text-sm">I enjoy creating things that live on the internet.</p>
+        <a href="" class="w-fit mt-8 text-lg transition-all ease-in-out duration-300 hover:translate-x-2">Say hi-></a>
     </main>
 </body>
 
