@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dhruv Dorbi | Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <style>
         * {
             margin: 0;
@@ -32,8 +32,11 @@
         }
 
         .grad-bg {
-            background: #121FCF;
-            background: linear-gradient(to right, #9845E8 0%, #33D2FF 50%, #DD5789 100%);
+            background: #121fcf;
+            background: linear-gradient(to right,
+                    #9845e8 0%,
+                    #33d2ff 50%,
+                    #dd5789 100%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -41,9 +44,9 @@
     </style>
 </head>
 
-<body class="w-5/6 mx-auto mt-5">
+<body class="w-5/6 mx-auto">
     <header>
-        <nav class="flex justify-between content-center bg-white">
+        <nav class="fixed top-0 left-50 right-50 py-5 w-5/6 flex justify-between items-center bg-white">
             <div>
                 <p class="text-2xl">DD.</p>
             </div>
@@ -57,12 +60,71 @@
             </div>
         </nav>
     </header>
-    <main class="flex flex-col justify-center min-h-screen">
-        <p class="text-sm">Hey, I'm</p>
-        <h1 class="ubuntu text-9xl font-bold grad-bg w-fit">Dhruv Dorbi</h1>
-        <p class="text-sm">I'm a software engineer based in Gwalior, India and also a Batchelor of Technology student.</p>
-        <p class="text-sm">I enjoy creating things that live on the internet.</p>
-        <a href="" class="w-fit mt-8 text-lg transition-all ease-in-out duration-300 hover:translate-x-2">Say hi-></a>
+    <main>
+        <section class="min-h-screen flex justify-center flex-col">
+            <p class="text-sm">Hey, I'm</p>
+            <h1 class="ubuntu text-9xl font-bold grad-bg w-fit my-1">
+                Dhruv Dorbi
+            </h1>
+            <p class="text-sm">
+                I'm a software engineer based in Gwalior, India and also a Bachelor
+                of Technology student.
+            </p>
+            <p class="text-sm">
+                I enjoy creating things that live on the internet.
+            </p>
+            <a href="" class="w-fit mt-8 text-lg transition-all ease-in-out duration-300 hover:translate-x-2">Say
+                hi-></a>
+        </section>
+        <section class="flex flex-wrap mb-10 min-h-screen">
+            <div class="basis-1/4">Voluntary Experience</div>
+            <div class="basis-3/4">
+                <div class="mb-12">
+                    <div class="flex justify-between">
+                        <h2 class="text-xl">Lead</h2>
+                        <p class="text-sm">Sept 2023 - Sept 2024</p>
+                    </div>
+                    <p class="grad-bg w-fit">Google Developer Student Clubs - RJIT</p>
+                    <p class="text-sm">Gwalior, India</p>
+                    <ul class="mt-5">
+                        <li class="my-1 text-sm">
+                            - Led a team of 5 members, expanding the club to 450+ members
+                            through strategic initiatives.
+                        </li>
+                        <li class="my-1 text-sm">
+                            - Organized 12 events, attracting 800+ attendees and delivering
+                            over 40 hours of technical content.
+                        </li>
+                        <li class="my-1 text-sm">
+                            - Achieved Tier-1 recognition in two Google campaigns, educating
+                            200+ students on Google technologies.
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb-12">
+                    <div class="flex justify-between">
+                        <h2 class="text-xl">Lead</h2>
+                        <p class="text-sm">Sept 2023 - Sept 2024</p>
+                    </div>
+                    <p class="grad-bg w-fit">Google Developer Student Clubs - RJIT</p>
+                    <p class="text-sm">Gwalior, India</p>
+                    <ul class="mt-5">
+                        <li class="my-1 text-sm">
+                            - Led a team of 5 members, expanding the club to 450+ members
+                            through strategic initiatives.
+                        </li>
+                        <li class="my-1 text-sm">
+                            - Organized 12 events, attracting 800+ attendees and delivering
+                            over 40 hours of technical content.
+                        </li>
+                        <li class="my-1 text-sm">
+                            - Achieved Tier-1 recognition in two Google campaigns, educating
+                            200+ students on Google technologies.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
